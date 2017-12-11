@@ -2,6 +2,11 @@
 	<div id="app" class="uk-offcanvas-content">
 		<div id="header" class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed uk-active uk-sticky-below ">
 			<navigation/>
+			<nav class="uk-navbar uk-navbar-container uk-margin">
+			    <div class="uk-navbar-left">
+			        <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#"></a>
+			    </div>
+			</nav>
 		</div>
 		<div id="main" class="tm-main uk-section-default uk-offcanvas-content">
 			<router-view/>
@@ -20,8 +25,7 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
-
+<style lang="scss" scoped itemtype="scss/">
 /*	#header {
 		position: fixed;
 		width: 100%;

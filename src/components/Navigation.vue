@@ -34,34 +34,31 @@
 	}
 </script>
 
- <style lang="scss" scoped>
-	 .header__logo__img {
-		 height: 65px;
-		 width: auto;
-		 margin-left: 5px;
-	 }
-
-	 /*
-		 .navbar {
-			 position: static;
-		 }
-
-		 .navbar__list {
-			 list-style-type: none;
-			 margin: 0;
-			 padding: 0;
-			 position: absolute;
-			 right: 40vw;
-			 top: 10px;
-			 height: 40px;
-			 line-height: 40px;
-			 display: inline-flex;
-		 }
-
-		 .navbar__list__item {
-			 display: inline-block;
-			 position: relative;
-			 margin: 0 0.6em;
-		 }
-		 */
+<style lang="scss" scoped>
+	.header__logo__img {
+		height: 65px;
+		width: auto;
+		margin-left: 5px;
+	}
+	/*
+		.navbar {
+			position: static;
+		}
+		.navbar__list {
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			right: 40vw;
+			top: 10px;
+			height: 40px;
+			line-height: 40px;
+			display: inline-flex;
+		}
+		.navbar__list__item {
+			display: inline-block;
+			position: relative;
+			margin: 0 0.6em;
+		}
+		*/
 </style>
