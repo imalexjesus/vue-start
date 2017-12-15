@@ -15,9 +15,8 @@
 
 		<a class="uk-slidenav-large uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
 		<a class="uk-slidenav-large uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
-		<div class="ds">fds</div>
-	</div>
 
+	</div>
 </template>
 
 <script>
@@ -28,7 +27,5 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-.ds {
-	padding: 20rem 0;
-}
+
 </style>
