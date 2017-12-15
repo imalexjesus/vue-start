@@ -1,31 +1,38 @@
 <template>
-	<nav id="navbar" class="navbar uk-navbar-container" uk-navbar>
+<div id="header" uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar" class="uk-light">
+
+	<nav id="navbar" class="uk-navbar-container" uk-navbar>
+
 		<router-link class="header__logo uk-navbar-item uk-logo" to="/">
-			<img alt="ЛОГО" src="../assets/bfg-logo.svg" class="header__logo__img"/>
+			<img alt="ЛОГО" src="../assets/bfg-logo--white.svg" height="510" class="header__logo__img"/>
 		</router-link>
+
 		<div class="uk-navbar-right">
 			<ul class="navbar__list uk-navbar-nav">
-				<router-link class="nav-item" tag="li" to="/" exact>
-					<a class="navbar__list__item">ДОМОЙ</a>
-				</router-link>
-				<router-link class="nav-item" tag="li" to="/test" exact>
-					<a class="navbar__list__item">ТЕСТ</a>
-				</router-link>
-				<router-link class="nav-item" tag="li" to="/11" exact>
+
+				<router-link class="nav-item" tag="li" to="/podrobnee-o-produkcii" exact>
 					<a class="navbar__list__item">О продукции</a>
 				</router-link>
-				<router-link class="nav-item" tag="li" to="/22" exact>
-					<a class="navbar__list__item">Почему мамы нам доверяют?</a>
+				<router-link class="nav-item" tag="li" to="/why" exact>
+					<a class="navbar__list__item">Почему?</a>
 				</router-link>
-				<router-link class="nav-item" tag="li" to="/33" exact>
+				<router-link class="nav-item" tag="li" to="/sotrudniki" exact>
 					<a class="navbar__list__item">Наши сотрудники</a>
 				</router-link>
-				<router-link class="nav-item" tag="li" to="/44" exact>
+				<router-link class="nav-item" tag="li" to="/faq" exact>
 					<a class="navbar__list__item">Чаво</a>
+				</router-link>
+				<router-link class="nav-item" tag="li" to="/sertificats" exact>
+					<a class="navbar__list__item">Сертификаты</a>
+				</router-link>
+				<router-link class="nav-item" tag="li" to="/gde-kupit" exact>
+					<a class="navbar__list__item">Где купить?</a>
 				</router-link>
 			</ul>
 		</div>
 	</nav>
+
+</div>
 </template>
 
 <script>
@@ -35,10 +42,15 @@
 </script>
 
 <style lang="scss" scoped>
+
 	.header__logo__img {
 		height: 65px;
 		width: auto;
 		margin-left: 5px;
+	}
+
+	#navbar {
+		background: rgba(255, 111, 59, 0.95) !important;
 	}
 	/*
 		.navbar {
