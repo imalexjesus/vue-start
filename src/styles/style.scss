@@ -1,7 +1,10 @@
+html {
+	background: #f8f8f8;
+}
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 15px;
-	color: #34495e;
+	//color: #34495e;
 	background-color: #fff;
 	margin: 0;
 }
@@ -12,8 +15,9 @@ a {
 }
 
 .samolechenie--border-bot {
-	border-bottom: 2px dashed #34495e;
-	margin-bottom: 120px;
+	// border-bottom: 2px dashed #34495e;
+	border-bottom: 1px solid #c8c8c8;
+	//margin-bottom: 120px;
 }
 .samolechenie__text {
 	font-size: 2em;
@@ -24,11 +28,14 @@ a {
 	font-weight: 200;
 	word-break: break-all;
 	//color: #b7b7b7;
-	;
 }
 
 .bg-orange {
 	background: $color-olifar;
+}
+// цвет плейсхолдера под хедер навигацией
+.uk-sticky-placeholder {
+	// background: $color-olifar2 !important;
 }
 
 // @import "../../node_modules/uikit/dist/css/uikit.css";

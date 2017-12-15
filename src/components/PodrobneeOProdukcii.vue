@@ -3,7 +3,7 @@
 	<section class="uk-light first-section uk-section-small uk-section uk-flex uk-flex-column uk-flex-center uk-flex-middle">
 		<h1 class="uk-margin-large-bottom">Подробнее о продукции</h1>
 
-		<div class="uk-container uk-light" style="width: 510px">
+		<div class="uk-container uk-light" style="width: 510px;">
 			<div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="min-height: 510; max-height: 510; autoplay autoplay: true;">
 				<ul class="uk-slideshow-items uk-text-center">
 					<li>

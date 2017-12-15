@@ -1,12 +1,11 @@
 <template>
-	<div uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed uk-light" >
-		<div class="uk-container uk-container-expand uk-navbar-transparent uk-light" style="position: fixed; top: 0px; ">
-
+	<div id="baz-navbar" uk-sticky="media: 960" class="uk-navbar-container tm-navbar-container uk-sticky uk-sticky-fixed">
+		<div class="uk-container uk-container-expand uk-navbar-transparent uk-dark">
 
 			<nav class="uk-navbar">
 				<div class="uk-navbar-left">
 					<router-link class="header__logo uk-navbar-item uk-logo" to="/">
-						<img alt="ЛОГО" src="../assets/bfg-logo--white.svg" height="510" class="header__logo__img"/>
+						<img alt="ЛОГО" src="../assets/bfg-logo.svg" height="510" class="uk-margin-small-right header__logo__img"/>
 					</router-link>
 				</div>
 				<div class="uk-navbar-right">
@@ -41,7 +40,7 @@
 
 <script>
 	export default {
-		name: 'Navigation'
+		name: 'Navigation2'
 	}
 </script>
 
@@ -53,8 +52,11 @@
 		margin-left: 5px;
 	}
 
-	#navbar {
-		background: rgba(255, 111, 59, 0.95) !important;
+	#baz-navbar {
+		// background: rgba(255, 111, 59, 0.95) !important;
+		// background-color: $color-olifar2;
+		// background: linear-gradient(to bottom, $color-olifar2, $color-olifar);
+		background: rgba(255, 255, 255, 0.9);
 	}
 	/*
 		.navbar {
