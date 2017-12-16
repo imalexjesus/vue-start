@@ -1,6 +1,6 @@
 <template>
 <article>
-	<section class="uk-light first-section uk-section-small uk-section uk-flex uk-flex-column uk-flex-center uk-flex-middle">
+	<section class="uk-light first-section uk-section-small uk-section uk-flex uk-flex-column uk-flex-center uk-flex-middle" uk-height-viewport="offset-bottom: 174px;">
 		<h1 class="uk-margin-large-bottom">Подробнее о продукции</h1>
 
 		<div class="uk-container uk-light" style="width: 510px;">

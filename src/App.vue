@@ -1,8 +1,8 @@
 <template>
-	<div id="app" class="uk-offcanvas-content" >
+	<div id="app" class="uk-offcanvas-content">
 		<Navigation2/>
-		<div class="uk-sticky-placeholder"></div>
-		<div id="main" class="tm-main" uk-height-viewport="expand: true">
+		<div class="uk-sticky-placeholder" ></div>
+		<div id="main" class="tm-main">
 			<router-view/>
 		</div>
 		<div id="offcanvas" uk-offcanvas="mode: push; overlay: true" class="uk-offcanvas">

@@ -1,11 +1,13 @@
-html {
-	background: #f8f8f8;
+html,
+body {
+	background: #ddded6 !important;
 }
+
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 15px;
 	//color: #34495e;
-	background-color: #fff;
+	//background-color: #F5F6FA;
 	margin: 0;
 }
 
@@ -14,9 +16,11 @@ a {
 	color: #34495e;
 }
 
+
 .samolechenie--border-bot {
 	// border-bottom: 2px dashed #34495e;
 	border-bottom: 1px solid #c8c8c8;
+	background-color: #fff;
 	//margin-bottom: 120px;
 }
 .samolechenie__text {

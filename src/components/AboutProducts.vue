@@ -1,6 +1,6 @@
 <template>
 <article>
-	<section class="first-section uk-section-small uk-section uk-flex">
+	<section class="first-section uk-section-small uk-section uk-flex" uk-height-viewport="offset-bottom: 174px;">
 
 		<div class="uk-container uk-width-1-2 uk-light">
 			<h2 class="uk-heading-divider">Ваш ребенок простыл?<br/> Ребенок часто болеет? <br/>Сопли и кашель у ребенка?</h2>

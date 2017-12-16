@@ -1,6 +1,6 @@
 <template>
 <article>
-	<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-light">
+	<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-light" uk-height-viewport="offset-bottom: 174px;">
 		<h1 class="uk-margin-large-bottom">Наши сотрудники</h1>
 
 		<div class="uk-grid-small uk-flex-center uk-child-width-1-3@s" uk-grid>
@@ -36,7 +36,7 @@
 
 
 		</div>
-		<button class="uk-button uk-button-default uk-margin-xlarge-top uk-margin-small-bottom">Задать вопрос представителю компании</button>
+		<button class="uk-button uk-button-default uk-margin-small-bottom">Задать вопрос представителю компании</button>
 	</section>
 
 	<section class="uk-flex uk-flex-center uk-section uk-section-xsmall uk-dark samolechenie--border-bot">
