@@ -9,7 +9,7 @@
 					</router-link>
 				</div>
 				<div class="uk-navbar-right">
-					<ul class="navbar__list uk-navbar-nav">
+					<ul class="navbar__list uk-navbar-nav uk-visible@m">
 
 						<router-link class="nav-item" tag="li" to="/podrobnee-o-produkcii" exact>
 							<a class="navbar__list__item">О продукции</a>
@@ -30,6 +30,8 @@
 							<a class="navbar__list__item">Где купить?</a>
 						</router-link>
 					</ul>
+
+					<a uk-navbar-toggle-icon href="#offcanvas" uk-toggle class="uk-navbar-toggle uk-hidden@m uk-navbar-toggle-icon uk-icon"></a>
 				</div>
 			</nav>
 		</div>

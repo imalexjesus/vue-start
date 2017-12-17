@@ -1,19 +1,22 @@
 <template>
-<article>
-	<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-light" uk-height-viewport="offset-bottom: 174px;">
-		<h1 class="uk-margin-large-bottom">Часто задаваемые вопросы</h1>
+	<article>
+		<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-light" uk-height-viewport="offset-top: true; offset-bottom: true;">
+			<h1 class="uk-margin-large-bottom">Часто задаваемые вопросы</h1>
 
-	</section>
+		</section>
 
-	<section class="uk-flex uk-flex-center uk-section uk-section-xsmall uk-dark samolechenie--border-bot">
-		<p class="samolechenie__text">самолечение &nbsp; может &nbsp; быть &nbsp; опасным &nbsp; для &nbsp; вашего &nbsp; здоровья</p>
-	</section>
-</article>
+		<WarningBlock/>
+	</article>
 </template>
 
 <script>
+	import WarningBlock from '../components/WarningBlock'
+
 	export default {
-		name: 'Faq'
+		name: 'Faq',
+		components: {
+			WarningBlock
+		}
 	}
 </script>
 
