@@ -1,5 +1,5 @@
 <template>
-	<article>
+	<article class="first-section">
 		<section class="uk-light first-section uk-section-small uk-section uk-flex uk-flex-column uk-flex-center uk-flex-middle" uk-height-viewport="offset-top: true; offset-bottom: true;">
 			<h1 class="uk-margin-large-bottom">Подробнее о продукции</h1>
 
@@ -48,10 +48,3 @@
 		}
 	}
 </script>
-
-<style lang="scss" scoped>
-	.first-section {
-		background: $color-olifar;
-	}
-
-</style>

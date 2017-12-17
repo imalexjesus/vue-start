@@ -1,6 +1,6 @@
 <template>
-	<article>
-		<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-light" uk-height-viewport="offset-top: true; offset-bottom: true;">
+	<article class="first-section">
+		<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-container uk-light" uk-height-viewport="offset-top: true; offset-bottom: true;">
 			<h1 class="uk-margin-large-bottom">Наши сотрудники</h1>
 
 			<div class="uk-grid-small uk-flex-center uk-child-width-1-3@s" uk-grid>

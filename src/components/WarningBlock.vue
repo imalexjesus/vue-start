@@ -9,7 +9,3 @@
 		name: 'WarningBlock'
 	}
 </script>
-
-<style scoped>
-
-</style>

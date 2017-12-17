@@ -1,6 +1,6 @@
 <template>
-	<article>
-		<section class="first-section uk-section-small uk-section uk-flex" uk-height-viewport="offset-top: true; offset-bottom: true;">
+	<article class="first-section">
+		<section class=" uk-section-small uk-section uk-flex uk-container" uk-height-viewport="offset-top: true; offset-bottom: true;">
 
 			<div class="uk-container uk-width-1-2 uk-light">
 				<h2 class="uk-heading-divider">Ваш ребенок простыл?<br/> Ребенок часто болеет?
@@ -51,7 +51,7 @@
 				</div>
 			</div>
 
-			<div class="uk-container uk-light" style="width: 510px">
+			<div class="uk-container uk-light uk-width-1-2">
 				<div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="min-height: 510; max-height: 510; autoplay autoplay: true;">
 					<ul class="uk-slideshow-items">
 						<li><img src="../assets/all-products-together@510x510.png" uk-cover></li>
@@ -91,10 +91,3 @@
 		}
 	}
 </script>
-
-<style lang="scss" scoped>
-	.first-section {
-		background: $color-olifar;
-	}
-
-</style>

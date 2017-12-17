@@ -1,6 +1,11 @@
 import Vue from 'vue'
 import Router from 'vue-router'
 
+import '../styles/style.scss'
+import 'font-awesome/scss/font-awesome.scss'
+import UIkit from 'uikit'
+import Icons from 'uikit/dist/js/uikit-icons'
+
 import AboutProducts from '../components/AboutProducts'
 import PodrobneeOProdukcii from '../components/PodrobneeOProdukcii'
 import Why from '../components/Why'
@@ -10,8 +15,8 @@ import Sertificats from '../components/Sertificats'
 import GdeKupit from '../components/GdeKupit'
 import Test from '../components/Test'
 
-import '../styles/style.scss'
-import 'font-awesome/scss/font-awesome.scss'
+// loads the Icon plugin
+UIkit.use(Icons)
 
 const MyRoutes = [
 	{ path: '/', component: AboutProducts },
