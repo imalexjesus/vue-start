@@ -94,25 +94,33 @@ a {
 
 .samolechenie--border-bot {
 	// border-bottom: 2px dashed #34495e;
-	color: #fcfcfb;
 	//background-color: #637a85;
-	background-color: #a7c2d8;
-	height: 85px;
+	color: #fcfcfb;
+	background: rgba(70, 70, 70, 0.25);
+	height: auto;
 	overflow: hidden;
-	//margin-bottom: 120px;
+
 	@media screen and (max-width: 768px) {
 		//height: auto;
 	}
 }
 
+
+
 .samolechenie__text {
-	font-size: 2em;
+	//font-size: 30px;
 	text-transform: uppercase;
-	letter-spacing: -2px;
-	transform: scaleY(2.5);
+	//letter-spacing: -2px;
+	transform: scaleY(2.2);
 	font-weight: 200;
-	//word-break: break-all;
-	//color: #b7b7b7;
+	line-height: 1.15;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+//	height: 75px;
+	@include interpolate(font-size, 320px, 960px, 8px, 25px);
+	@include interpolate(height, 320px, 960px, 30px, 66px);
+	@include interpolate(letter-spacing, 320px, 960px, -0.5px, -2px);
 }
 
 .bg-orange {

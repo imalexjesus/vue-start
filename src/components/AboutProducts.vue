@@ -1,11 +1,11 @@
 <template>
 	<article class="first-section">
-		<section class=" uk-section-small uk-section uk-flex uk-container" uk-height-viewport="offset-top: true; offset-bottom: true;">
+		<section class="uk-padding-large uk-section-small uk-section uk-flex uk-container" uk-height-viewport="offset-top: true; offset-bottom: true;">
 
 			<div class="uk-container uk-width-1-2 uk-light">
-				<h2 class="uk-heading-divider">Ваш ребенок простыл?<br/> Ребенок часто болеет?
+				<h2 class="uk-heading-divider uk-text-uppercase">Ваш ребенок простыл?<br/> Ребенок часто болеет?
 					<br/>Сопли и кашель у ребенка?</h2>
-				<h5 class="uk-margin-remove-top">Серия натуральных препаратов, которые быстро поднимут Вашего ребенка на ноги</h5>
+				<h5 class="uk-margin-remove-top uk-text-primary">Серия натуральных препаратов, которые быстро поднимут Вашего ребенка на ноги</h5>
 
 				<div class="uk-container">
 					<!-- безопасность -->
@@ -52,7 +52,7 @@
 			</div>
 
 			<div class="uk-container uk-light uk-width-1-2">
-				<div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="min-height: 510; max-height: 510; autoplay autoplay: true;">
+				<div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="min-height: 510; max-height: 510; autoplay: true;">
 					<ul class="uk-slideshow-items">
 						<li><img src="../assets/all-products-together@510x510.png" uk-cover></li>
 						<li><img src="../assets/olefar-liquid@510x510.png"></li>

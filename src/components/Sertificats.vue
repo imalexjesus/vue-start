@@ -1,7 +1,7 @@
 <template>
 	<article class="first-section">
 		<section class="uk-section bg-orange uk-flex uk-flex-column uk-flex-middle uk-container uk-light" uk-height-viewport="offset-top: true; offset-bottom: true;">
-			<h1 uk-parallax="opacity: 0,1; y: -100,0; scale: 2,1; viewport: 0.5;" class="uk-margin-large-bottom">Сертификаты</h1>
+			<h1 class="uk-margin-large-bottom">Сертификаты</h1>
 
 
 			<div class="uk-child-width-1-4@s uk-margin-large-bottom uk-text-center" uk-grid uk-lightbox="animation: slide">
