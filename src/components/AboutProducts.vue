@@ -1,60 +1,65 @@
 <template>
-	<article class="first-section">
-		<section class="uk-padding-large uk-section-small uk-section uk-flex uk-container" uk-height-viewport="offset-top: true; offset-bottom: true;">
+	<article class="first-section uk-light">
+		<section class="uk-section uk-container uk-flex uk-flex-center uk-flex-wrap" uk-height-viewport="offset-top: true; offset-bottom: true;">
 
-			<div class="uk-container uk-width-1-2 uk-light">
+			<div class="uk-width-1-2@m">
 				<h2 class="uk-heading-divider uk-text-uppercase">Ваш ребенок простыл?<br/> Ребенок часто болеет?
 					<br/>Сопли и кашель у ребенка?</h2>
 				<h5 class="uk-margin-remove-top uk-text-primary">Серия натуральных препаратов, которые быстро поднимут Вашего ребенка на ноги</h5>
 
 				<div class="uk-container">
-					<!-- безопасность -->
+
+					<!-- Безопасность -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<div class="uk-border-circle" style="background: gray; width: 40px; height: 40px"></div>
+							<!--<div  style="background: gray; width: 40px; height: 40px"></div>-->
+							<img src="../assets/4-icons/health-insurance.svg" width="40" height="40" uk-svg>
 						</div>
 						<div class="uk-width-expand">
 							<h3 class="uk-margin-remove-bottom">Безопасность</h3>
 							<p class="uk-margin-remove-top">Разрешен к применению для детей от 3лет. Без спирта и ГМО.</p>
 						</div>
 					</div>
+
 					<!-- Натуральные компоненты -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<div class="uk-border-circle" style="background: gray; width: 40px; height: 40px"></div>
+							<img src="../assets/4-icons/herbs-leaves-for-natural-spa-treatment-svgrepo-com.svg" width="40" height="40" uk-svg>
 						</div>
 						<div class="uk-width-expand">
 							<h3 class="uk-margin-remove-bottom">Натуральные компоненты</h3>
-							<p class="uk-margin-remove-top">Разрешен к применению для детей от 3лет. Без спирта и ГМО.</p>
+							<p class="uk-margin-remove-top">В составе масла прополиса, календулы, тимьяна и другие.</p>
 						</div>
 					</div>
-					<!-- безопасность -->
+
+					<!-- Европейское качество -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<div class="uk-border-circle" style="background: #cdcdcd; width: 40px; height: 40px"></div>
+							<img src="../assets/4-icons/eu-qual.svg" width="40" height="40" uk-svg>
 						</div>
 						<div class="uk-width-expand">
-							<h3 class="uk-margin-remove-bottom">Безопасность</h3>
-							<p class="uk-margin-remove-top uk-article-meta">Разрешен к применению для детей от 3лет. Без спирта и ГМО.</p>
+							<h3 class="uk-margin-remove-bottom">Европейское качество</h3>
+							<p class="uk-margin-remove-top uk-article-meta">Продукция производится в ЕС.</p>
 						</div>
 					</div>
-					<!-- безопасность -->
+
+					<!-- Доступность -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<div class="uk-border-circle" style="background: gray; width: 40px; height: 40px"></div>
+							<img src="../assets/4-icons/dostupnost.svg" width="40" height="40" uk-svg>
 						</div>
 						<div class="uk-width-expand">
-							<h3 class="uk-margin-remove-bottom">Безопасность</h3>
-							<p class="uk-margin-remove-top">Разрешен к применению для детей от 3лет. Без спирта и ГМО.</p>
+							<h3 class="uk-margin-remove-bottom">Доступность</h3>
+							<p class="uk-margin-remove-top">В наличии в ближайшей аптеке.</p>
 						</div>
 					</div>
 				</div>
 			</div>
 
-			<div class="uk-container uk-light uk-width-1-2">
+			<div class="uk-width-1-2@m">
 				<div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="min-height: 510; max-height: 510; autoplay: true;">
 					<ul class="uk-slideshow-items">
-						<li><img src="../assets/all-products-together@510x510.png" uk-cover></li>
+						<li><img src="../assets/all-products-together@510x510.png"></li>
 						<li><img src="../assets/olefar-liquid@510x510.png"></li>
 						<li><img src="../assets/alvin-liquid@510x510.png"></li>
 						<li><img src="../assets/sinorm-pills@510x510.png"></li>

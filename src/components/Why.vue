@@ -11,7 +11,7 @@
 					</div>
 					<div class="uk-width-auto">
 						<h3 class="uk-margin-remove-bottom">Нас выбирают</h3>
-						<p class="uk-margin-remove-top">Текст</p>
+						<p class="uk-margin-remove-top">В 2017 на территории ЕС и СНГ продано более 3 450 000 упаковок продукции</p>
 					</div>
 				</div>
 				<!-- Натуральные компоненты -->
@@ -21,7 +21,7 @@
 					</div>
 					<div class="uk-width-auto">
 						<h3 class="uk-margin-remove-bottom">Натуральный состав</h3>
-						<p class="uk-margin-remove-top">Текст</p>
+						<p class="uk-margin-remove-top">Наша продукция создается из высококачественного натурального сырья</p>
 					</div>
 				</div>
 				<!-- безопасность -->
@@ -31,7 +31,7 @@
 					</div>
 					<div class="uk-width-auto">
 						<h3 class="uk-margin-remove-bottom">Сертификаты соответствия</h3>
-						<p class="uk-margin-remove-top uk-article-meta">Текст</p>
+						<p class="uk-margin-remove-top uk-article-meta">Вся продукция сертифицирована на территории Украины, ЕС и СНГ</p>
 					</div>
 				</div>
 				<!-- безопасность -->
@@ -41,7 +41,7 @@
 					</div>
 					<div class="uk-width-auto">
 						<h3 class="uk-margin-remove-bottom">Для самых маленьких</h3>
-						<p class="uk-margin-remove-top">Текст</p>
+						<p class="uk-margin-remove-top">Безопасен для детей от 3 лет</p>
 					</div>
 				</div>
 			</div>
