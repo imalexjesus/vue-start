@@ -105,8 +105,7 @@ a {
 	}
 }
 
-
-
+//fdsfds
 .samolechenie__text {
 	//font-size: 30px;
 	text-transform: uppercase;
@@ -117,18 +116,27 @@ a {
 	display: inline-flex;
 	justify-content: center;
 	align-items: center;
-//	height: 75px;
+	//	height: 75px;
 	@include interpolate(font-size, 320px, 960px, 8px, 25px);
 	@include interpolate(height, 320px, 960px, 30px, 66px);
 	@include interpolate(letter-spacing, 320px, 960px, -0.5px, -2px);
 }
 
 .bg-orange {
-	background: $color-olifar;
+	// background: $color-olifar;
+	// background: red; //TEST
 }
 
-.first-section {
-	background: $color-olifar;
+:not(.section1) {
+	&.first-section {
+		background: $color-olifar;
+	}
+}
+
+.section1 {
+	&.first-section {
+		background: #f8f8f8;
+	}
 }
 
 // цвет плейсхолдера под хедер навигацией
@@ -136,9 +144,11 @@ a {
 	// background: $color-olifar2 !important;
 }
 
-
-
-// @import "../../node_modules/uikit/dist/css/uikit.css";
 @import "../../node_modules/uikit/src/scss/variables-theme";
 @import "../../node_modules/uikit/src/scss/mixins-theme";
+
+@mixin hook-inverse-button-default() {
+	// background-color: teal;
+}
+
 @import "../../node_modules/uikit/src/scss/uikit-theme";

@@ -12,7 +12,7 @@
 					<ul class="navbar__list uk-navbar-nav uk-visible@m">
 
 						<router-link class="nav-item" tag="li" to="/podrobnee-o-produkcii" exact>
-							<a class="navbar__list__item">О продукции</a>
+							<a class="navbar__list__item">zО продукции</a>
 						</router-link>
 						<router-link class="nav-item" tag="li" to="/why" exact>
 							<a class="navbar__list__item">Почему?</a>

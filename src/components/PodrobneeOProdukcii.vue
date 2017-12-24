@@ -11,9 +11,9 @@
 						<!--Алвин-->
 						<li class="uk-container">
 							<h2 class="uk-text-warning">Алвин</h2>
-							<div class="uk-flex uk-flex-center uk-child-width-1-2\@m">
-
-								<ul class="uk-list uk-list-large uk-width-auto uk-list-divider">
+							<div class="uk-flex uk-flex-center uk-child-width-auto@s uk-width-auto uk-grid-collapse" uk-grid>
+								<!--текст слева-->
+								<ul class="uk-list uk-list-large uk-list-divider">
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
 											<img src="../assets/drugs-round-icons/lizin.png" height="35" width="35" class="uk-margin-small-bottom">
@@ -37,8 +37,8 @@
 										<span class="uk-text-meta uk-width-expand">Инулин и витамин C укрепляют иммунитет и способствуют быстрому выздоровлению</span>
 									</li>
 								</ul>
-
-								<div class="uk-width-auto" style="position: relative; top: -40px;">
+								<!--фото справа-->
+								<div class="" >
 									<img src="../assets/alvin-liquid@510x510.png" height="410">
 								</div>
 							</div>
