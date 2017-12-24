@@ -6,8 +6,11 @@ import '../styles/style.scss'
 import UIkit from 'uikit'
 import Icons from 'uikit/dist/js/uikit-icons'
 
-/* NORMAL LOAD
+/***
+ *  NORMAL LOAD
+ */
 import AboutProducts from '../components/AboutProducts'
+/*
 import PodrobneeOProdukcii from '../components/PodrobneeOProdukcii'
 import Sotrudniki from '../components/Sotrudniki'
 import Faq from '../components/Faq'
@@ -19,7 +22,7 @@ import GdeKupit from '../components/GdeKupit'
 /***
  * LAZY LOAD
  */
-const AboutProducts = resolve => require(['../components/AboutProducts'], resolve)
+// const AboutProducts = resolve => require(['../components/AboutProducts'], resolve)
 const PodrobneeOProdukcii = resolve => require(['../components/PodrobneeOProdukcii'], resolve)
 const Sotrudniki = resolve => require(['../components/Sotrudniki'], resolve)
 const Faq = resolve => require(['../components/Faq'], resolve)
@@ -30,21 +33,27 @@ const Why = resolve => require(['../components/Why'], resolve)
 // loads the Icon plugin
 UIkit.use(Icons)
 
-const MyRoutes = [
-	{ path: '/', components: {default: AboutProducts, section1: Why} },
-	{ path: '/why', component: Why },
-	{ path: '/podrobnee-o-produkcii', component: PodrobneeOProdukcii },
-	{ path: '/sotrudniki', component: Sotrudniki },
-	{ path: '/faq', component: Faq },
-	{ path: '/sertificats', component: Sertificats },
-	{ path: '/gde-kupit', component: GdeKupit }
+const RoutesMaps = [
+	{
+		path: '/',
+		components: {
+			default: AboutProducts,
+			section1: Why
+		}
+	},
+	{path: '/why', component: Why},
+	{path: '/podrobnee-o-produkcii', component: PodrobneeOProdukcii},
+	{path: '/sotrudniki', component: Sotrudniki},
+	{path: '/faq', component: Faq},
+	{path: '/sertificats', component: Sertificats},
+	{path: '/gde-kupit', component: GdeKupit}
 	// { path: '/test', component: Test }
 ]
 
 Vue.use(Router)
 
 export default new Router({
-	routes: MyRoutes,
+	routes: RoutesMaps,
 	mode: 'history',
 	linkActiveClass: 'uk-active'
 })
