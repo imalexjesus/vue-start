@@ -3,7 +3,7 @@
 		<Navigation/>
 		<div class="uk-sticky-placeholder"></div>
 		<div id="main" class="tm-main">
-			<router-view/>
+			<router-view class="section0" />
 			<router-view class="section1" name="section1"/>
 		</div>
 		<div id="offcanvas" uk-offcanvas="mode: push; overlay: true" class="uk-offcanvas">

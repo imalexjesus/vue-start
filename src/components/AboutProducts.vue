@@ -1,10 +1,12 @@
 <template>
 	<article class="first-section uk-light">
 		<section class="uk-section uk-container uk-flex uk-flex-center uk-flex-wrap" uk-height-viewport="offset-top: true; offset-bottom: true;">
+			<div v-if="isScrollPage">true</div>
+			<div v-else-if="!isScrollPage">false</div>
 
 			<div class="uk-width-1-2@m">
-				<h2 class="uk-heading-divider uk-text-uppercase">Ваш ребенок простыл?<br/> Ребенок часто болеет?
-					<br/>Сопли и кашель у ребенка?</h2>
+				<h2 class="uk-heading-divider uk-text-uppercase">Ваш ребенок простыл?<br/> Ребенок часто болеет?<br/>Сопли и кашель у ребенка?</h2>
+
 				<h5 class="uk-margin-remove-top uk-text-primary">Серия натуральных препаратов, которые быстро поднимут Вашего ребенка на ноги</h5>
 
 				<div class="uk-container">
@@ -37,6 +39,7 @@
 						<div class="uk-width-auto">
 							<img src="../assets/4-icons/eu-qual.svg" width="40" height="40">
 						</div>
+
 						<div class="uk-width-expand">
 							<h3 class="uk-margin-remove-bottom">Европейское качество</h3>
 							<p class="uk-margin-remove-top uk-article-meta">Продукция производится в ЕС.</p>
@@ -90,9 +93,15 @@
 	import WarningBlock from '../components/WarningBlock'
 
 	export default {
-		name: 'FullPage',
+		name: 'AboutProducts',
 		components: {
 			WarningBlock
 		}
+		// props: ['isScrollPage']
+		// props: ['isScrollPage']
+/*		data: {
+			isScrollPage: 'false'
+		},
+		props: {xx: false} */
 	}
 </script>

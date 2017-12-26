@@ -147,7 +147,7 @@
 	import WarningBlock from '../components/WarningBlock'
 
 	export default {
-		name: 'FullPage',
+		name: 'PodrobneeOProdukcii',
 		components: {
 			WarningBlock
 		}
