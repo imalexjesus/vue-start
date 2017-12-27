@@ -1,8 +1,6 @@
 <template>
 	<article class="first-section uk-light">
 		<section class="uk-section uk-container uk-flex uk-flex-center uk-flex-wrap" uk-height-viewport="offset-top: true; offset-bottom: true;">
-			<div v-if="isScrollPage">true</div>
-			<div v-else-if="!isScrollPage">false</div>
 
 			<div class="uk-width-1-2@m">
 				<h2 class="uk-heading-divider uk-text-uppercase">Ваш ребенок простыл?<br/> Ребенок часто болеет?<br/>Сопли и кашель у ребенка?</h2>
@@ -93,15 +91,10 @@
 	import WarningBlock from './WarningBlock'
 
 	export default {
+		props: ['isScrollPage'],
 		name: 'AboutProducts',
 		components: {
 			WarningBlock
 		}
-		// props: ['isScrollPage']
-		// props: ['isScrollPage']
-/*		data: {
-			isScrollPage: 'false'
-		},
-		props: {xx: false} */
 	}
 </script>

@@ -14,8 +14,10 @@ new Vue({
 	template: '<App/>',
 	components: {
 		App
-	},
-	data: {
-		isScrollPage: true
-	}
+	}/* ,
+	data () {
+		return {
+			isScrollPage: true
+		}
+	} */
 })

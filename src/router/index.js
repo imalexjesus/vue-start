@@ -21,17 +21,15 @@ import Why from '@/components/pages/Why' */
 /***
  * LAZY LOAD
  */
-// const AboutProducts = resolve => require(['@/components/AboutProducts'], resolve)
+// const AboutProducts = () => import('../components/AboutProducts')
 
-const PodrobneeOProdukcii = resolve => require(['@/components/pages/PodrobneeOProdukcii'], resolve)
-const Sotrudniki = resolve => require(['@/components/pages/Sotrudniki'], resolve)
-const Faq = resolve => require(['@/components/pages/Faq'], resolve)
-const Sertificats = resolve => require(['@/components/pages/Sertificats'], resolve)
-const GdeKupit = resolve => require(['@/components/pages/GdeKupit'], resolve)
-const Why = resolve => require(['@/components/pages/Why'], resolve)
-const Test = resolve => require(['@/components/pages/components/Test'], resolve)
-
-// loads the Icon plugin
+const PodrobneeOProdukcii = () => import('../components/pages/PodrobneeOProdukcii')
+const Sotrudniki = () => import('../components/pages/Sotrudniki')
+const Faq = () => import('../components/pages/Faq')
+const Sertificats = () => import('../components/pages/Sertificats')
+const GdeKupit = () => import('../components/pages/GdeKupit')
+const Why = () => import('../components/pages/Why')
+const Test = () => import('../components/pages/Test') // loads the Icon plugin
 UIkit.use(Icons)
 
 const RoutesMaps = [
@@ -56,6 +54,5 @@ Vue.use(Router)
 export default new Router({
 	routes: RoutesMaps,
 	mode: 'history',
-	linkActiveClass: 'uk-active',
-	props: ['isScrollPage']
+	linkActiveClass: 'uk-active'
 })

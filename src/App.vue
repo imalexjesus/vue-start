@@ -3,7 +3,7 @@
 		<Navigation/>
 		<div class="uk-sticky-placeholder"></div>
 		<div id="main" class="tm-main">
-			<router-view class="section0" />
+			<router-view class="section0" :isScrollPage="isScrollPage"/>
 			<router-view class="section1" name="section1"/>
 		</div>
 		<NavigationMobile/>
@@ -19,6 +19,11 @@
 		components: {
 			Navigation,
 			NavigationMobile
+		},
+		data () {
+			return {
+				isScrollPage: true
+			}
 		}
 	}
 </script>
