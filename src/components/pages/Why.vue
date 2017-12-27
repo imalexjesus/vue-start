@@ -8,7 +8,7 @@
 				<!-- безопасность -->
 				<div class="uk-margin uk-flex">
 					<div class="uk-margin-right uk-width-auto">
-						<img src="../assets/null-images/image.png" style="height: 60px" alt="">
+						<img src="../../assets/null-images/image.png" style="height: 60px" alt="">
 					</div>
 					<div class="uk-width-expand">
 						<h3 class="uk-margin-remove-bottom">Нас выбирают</h3>
@@ -19,7 +19,7 @@
 				<!-- Натуральные компоненты -->
 				<div class="uk-margin uk-flex">
 					<div class="uk-margin-right uk-width-auto">
-						<img src="../assets/null-images/image.png" style="height: 60px" alt="">
+						<img src="../../assets/null-images/image.png" style="height: 60px" alt="">
 					</div>
 					<div class="uk-width-expand">
 						<h3 class="uk-margin-remove-bottom">Натуральный состав</h3>
@@ -29,7 +29,7 @@
 				<!-- безопасность -->
 				<div class="uk-margin uk-flex">
 					<div class="uk-margin-right uk-width-auto">
-						<img src="../assets/null-images/image.png" style="height: 60px" alt="">
+						<img src="../../assets/null-images/image.png" style="height: 60px" alt="">
 					</div>
 					<div class="uk-width-expand">
 						<h3 class="uk-margin-remove-bottom">Сертификаты соответствия</h3>
@@ -39,7 +39,7 @@
 				<!-- безопасность -->
 				<div class="uk-margin uk-flex">
 					<div class="uk-margin-right uk-width-auto">
-						<img src="../assets/null-images/image.png" style="height: 60px" alt="">
+						<img src="../../assets/null-images/image.png" style="height: 60px" alt="">
 					</div>
 					<div class="uk-width-expand">
 						<h3 class="uk-margin-remove-bottom">Для самых маленьких</h3>
@@ -55,7 +55,7 @@
 </template>
 
 <script>
-	import WarningBlock from '../components/WarningBlock'
+	import WarningBlock from './WarningBlock'
 
 	export default {
 		name: 'Faq',

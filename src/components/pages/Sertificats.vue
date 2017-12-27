@@ -6,20 +6,20 @@
 
 			<div class="uk-child-width-1-4@s uk-margin-large-bottom uk-text-center" uk-grid uk-lightbox="animation: slide">
 				<div>
-					<a class="uk-inline" href="../assets/null-images/image.png" caption="Caption 1">
-						<img src="../assets/null-images/image.png" width="160" alt=""> </a>
+					<a class="uk-inline" href="../../assets/null-images/image.png" caption="Caption 1">
+						<img src="../../assets/null-images/image.png" width="160" alt=""> </a>
 				</div>
 				<div>
-					<a class="uk-inline" href="../assets/null-images/image.png" caption="Caption 2">
-						<img src="../assets/null-images/image.png" width="160" alt=""> </a>
+					<a class="uk-inline" href="../../assets/null-images/image.png" caption="Caption 2">
+						<img src="../../assets/null-images/image.png" width="160" alt=""> </a>
 				</div>
 				<div>
-					<a class="uk-inline" href="../assets/null-images/image.png" caption="Caption 3">
-						<img src="../assets/null-images/image.png" width="160" alt=""> </a>
+					<a class="uk-inline" href="../../assets/null-images/image.png" caption="Caption 3">
+						<img src="../../assets/null-images/image.png" width="160" alt=""> </a>
 				</div>
 				<div>
 					<a class="uk-inline" href=".ю/assets/null-images/image.png" caption="Caption 3">
-						<img src="../assets/null-images/image.png" width="160" alt=""> </a>
+						<img src="../../assets/null-images/image.png" width="160" alt=""> </a>
 				</div>
 			</div>
 
@@ -31,7 +31,7 @@
 </template>
 
 <script>
-	import WarningBlock from '../components/WarningBlock'
+	import WarningBlock from './WarningBlock'
 
 	export default {
 		name: 'Sertificats',

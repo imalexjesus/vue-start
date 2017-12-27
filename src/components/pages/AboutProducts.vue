@@ -15,7 +15,7 @@
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
 							<!--<div  style="background: gray; width: 40px; height: 40px"></div>-->
-							<img src="../assets/4-icons/health-insurance.svg" width="40" height="40">
+							<img src="../../assets/4-icons/health-insurance.svg" width="40" height="40">
 						</div>
 						<div class="uk-width-expand">
 							<h3 class="uk-margin-remove-bottom">Безопасность</h3>
@@ -26,7 +26,7 @@
 					<!-- Натуральные компоненты -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<img src="../assets/4-icons/herbs-leaves-for-natural-spa-treatment-svgrepo-com.svg" width="40" height="40">
+							<img src="../../assets/4-icons/herbs-leaves-for-natural-spa-treatment-svgrepo-com.svg" width="40" height="40">
 						</div>
 						<div class="uk-width-expand">
 							<h3 class="uk-margin-remove-bottom">Натуральные компоненты</h3>
@@ -37,7 +37,7 @@
 					<!-- Европейское качество -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<img src="../assets/4-icons/eu-qual.svg" width="40" height="40">
+							<img src="../../assets/4-icons/eu-qual.svg" width="40" height="40">
 						</div>
 
 						<div class="uk-width-expand">
@@ -49,7 +49,7 @@
 					<!-- Доступность -->
 					<div class="uk-grid-small uk-flex-middle" uk-grid>
 						<div class="uk-width-auto">
-							<img src="../assets/4-icons/dostupnost.svg" width="40" height="40">
+							<img src="../../assets/4-icons/dostupnost.svg" width="40" height="40">
 						</div>
 						<div class="uk-width-expand">
 							<h3 class="uk-margin-remove-bottom">Доступность</h3>
@@ -62,11 +62,11 @@
 			<div class="uk-width-1-2@m">
 				<div class="uk-position-relative uk-visible-toggle uk-dark" uk-slideshow="min-height: 510; max-height: 510; autoplay: true;">
 					<ul class="uk-slideshow-items">
-						<li><img src="../assets/all-products-together@510x510.png"></li>
-						<li><img src="../assets/olefar-liquid@510x510.png"></li>
-						<li><img src="../assets/alvin-liquid@510x510.png"></li>
-						<li><img src="../assets/sinorm-pills@510x510.png"></li>
-						<li><img src="../assets/sinorm-liquid@510x510.png"></li>
+						<li><img src="../../assets/all-products-together@510x510.png"></li>
+						<li><img src="../../assets/olefar-liquid@510x510.png"></li>
+						<li><img src="../../assets/alvin-liquid@510x510.png"></li>
+						<li><img src="../../assets/sinorm-pills@510x510.png"></li>
+						<li><img src="../../assets/sinorm-liquid@510x510.png"></li>
 					</ul>
 
 					<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
@@ -90,7 +90,7 @@
 </template>
 
 <script>
-	import WarningBlock from '../components/WarningBlock'
+	import WarningBlock from './WarningBlock'
 
 	export default {
 		name: 'AboutProducts',

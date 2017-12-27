@@ -16,30 +16,30 @@
 								<ul class="uk-list uk-list-large uk-list-divider">
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/lizin.png" height="35" width="35" class="uk-margin-small-bottom">
-											<img src="../assets/drugs-round-icons/propolis.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/lizin.png" height="35" width="35" class="uk-margin-small-bottom">
+											<img src="../../assets/drugs-round-icons/propolis.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">L-лизин и прополис оказывают противовирусное действие</span>
 									</li>
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/lipa.png" height="35" width="35" class="uk-margin-small-bottom">
-											<img src="../assets/drugs-round-icons/sosnovye-brunki.png" height="35" width="35" class="uk-margin-small-bottom">
-											<img src="../assets/drugs-round-icons/chebrec.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/lipa.png" height="35" width="35" class="uk-margin-small-bottom">
+											<img src="../../assets/drugs-round-icons/sosnovye-brunki.png" height="35" width="35" class="uk-margin-small-bottom">
+											<img src="../../assets/drugs-round-icons/chebrec.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Тимьян, липовый цвет и сосновые почки способствуют отхаркиванию</span>
 									</li>
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/inulin.png" height="35" width="35" class="uk-margin-small-bottom">
-											<img src="../assets/drugs-round-icons/vitamin-c.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/inulin.png" height="35" width="35" class="uk-margin-small-bottom">
+											<img src="../../assets/drugs-round-icons/vitamin-c.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Инулин и витамин C укрепляют иммунитет и способствуют быстрому выздоровлению</span>
 									</li>
 								</ul>
 								<!--фото справа-->
 								<div class="" >
-									<img src="../assets/alvin-liquid@510x510.png" height="410">
+									<img src="../../assets/alvin-liquid@510x510.png" height="410">
 								</div>
 							</div>
 
@@ -56,26 +56,26 @@
 								<ul class="uk-list uk-list-large uk-width-auto uk-list-divider uk-margin-large-top">
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/maslo-oblepihi.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/maslo-oblepihi.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Облепиховое масло быстро снимает боль и облегчет глотание</span>
 									</li>
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/maslo-kalenduly.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/maslo-kalenduly.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Масло календулы является природным антисептиком</span>
 									</li>
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/maslo-chaynogo-dereva.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/maslo-chaynogo-dereva.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Масло чайного дерева и масло корицы способсвуют восстановлению тканей</span>
 									</li>
 								</ul>
 
 								<div class="uk-width-auto" style="position: relative; top: -40px;">
-									<img src="../assets/olefar-liquid@510x510.png" height="410">
+									<img src="../../assets/olefar-liquid@510x510.png" height="410">
 								</div>
 							</div>
 
@@ -92,27 +92,27 @@
 								<ul class="uk-list uk-list-large uk-width-auto uk-list-divider uk-margin-large-top">
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/stebla-chebrecu.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/stebla-chebrecu.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Экстракт тимьяна облегкчает дыхание через нос</span>
 									</li>
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/shyshky-hmelu.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/shyshky-hmelu.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Экстракт шишек хмеля уменьшает отек слизистой</span>
 									</li>
 									<li class="uk-width-medium uk-flex-center uk-flex-middle uk-flex">
 										<div class="uk-margin-small-right uk-width-auto uk-flex-column uk-flex">
-											<img src="../assets/drugs-round-icons/kvity-pervocvitu.png" height="35" width="35" class="uk-margin-small-bottom">
-											<img src="../assets/drugs-round-icons/kora-sosny.png" height="35" width="35">
+											<img src="../../assets/drugs-round-icons/kvity-pervocvitu.png" height="35" width="35" class="uk-margin-small-bottom">
+											<img src="../../assets/drugs-round-icons/kora-sosny.png" height="35" width="35">
 										</div>
 										<span class="uk-text-meta uk-width-expand">Экстракт цветов первоцвета и коры сосны облегчают отход слизи из носа</span>
 									</li>
 								</ul>
 
 								<div class="uk-width-auto" style="position: relative; top: -40px;">
-									<img src="../assets/sinorm-liquid@510x510.png" height="410">
+									<img src="../../assets/sinorm-liquid@510x510.png" height="410">
 								</div>
 							</div>
 
@@ -144,7 +144,7 @@
 </template>
 
 <script>
-	import WarningBlock from '../components/WarningBlock'
+	import WarningBlock from './WarningBlock'
 
 	export default {
 		name: 'PodrobneeOProdukcii',

@@ -6,7 +6,7 @@
 			<div class="uk-grid-small uk-flex-center uk-child-width-1-3@s" uk-grid>
 				<div class="uk-card uk-text-center">
 					<div class="uk-card-media-top uk-text-center">
-						<img src="../assets/null-images/elliot.jpg" width="200" alt="">
+						<img src="../../assets/null-images/elliot.jpg" width="200" alt="">
 					</div>
 					<div class="uk-card-body">
 						<h3 class="uk-card-title">Имя Фамилия</h3>
@@ -16,7 +16,7 @@
 
 				<div class="uk-card  uk-text-center">
 					<div class="uk-card-media-top">
-						<img src="../assets/null-images/steve.jpg" width="200" alt="">
+						<img src="../../assets/null-images/steve.jpg" width="200" alt="">
 					</div>
 					<div class="uk-card-body">
 						<h3 class="uk-card-title">Имя Фамилия</h3>
@@ -26,7 +26,7 @@
 
 				<div class="uk-card  uk-text-center">
 					<div class="uk-card-media-top">
-						<img src="../assets/null-images/elyse.png" width="200" alt="">
+						<img src="../../assets/null-images/elyse.png" width="200" alt="">
 					</div>
 					<div class="uk-card-body">
 						<h3 class="uk-card-title">Имя Фамилия</h3>
@@ -44,7 +44,7 @@
 </template>
 
 <script>
-	import WarningBlock from '../components/WarningBlock'
+	import WarningBlock from './WarningBlock'
 
 	export default {
 		name: 'Sotrudniki',
