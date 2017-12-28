@@ -14,7 +14,7 @@
 						<router-link class="nav-item" tag="li" to="/podrobnee-o-produkcii" exact>
 							<a class="navbar__list__item">О продукции</a>
 						</router-link>
-						<router-link class="nav-item" tag="li" to="/why" exact>
+						<router-link class="nav-item" tag="li" to="/#why">
 							<a class="navbar__list__item">Почему?</a>
 						</router-link>
 						<router-link class="nav-item" tag="li" to="/sotrudniki" exact>

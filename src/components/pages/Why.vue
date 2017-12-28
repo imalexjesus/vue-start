@@ -1,5 +1,5 @@
 <template>
-	<article class="first-section" >
+	<article class="first-section" id="why">
 
 		<section class="uk-section uk-flex uk-flex-column uk-flex-middle uk-container uk-dark" uk-scrollspy="cls: uk-animation-slide-right; target: > h1; delay: 300; repeat: false">
 			<h1 class="uk-margin-large-bottom">Почему мамы нам доверяют</h1>
